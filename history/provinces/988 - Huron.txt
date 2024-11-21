@@ -1,0 +1,37 @@
+#988 - Huron
+
+
+add_core = HUR
+owner = HUR
+controller = HUR
+culture = huron
+religion = totemism
+capital = "Huron"
+trade_goods = fur
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 4
+is_city = yes
+
+
+
+
+discovered_by = north_american
+
+1609.1.1 = { discovered_by = FRA } # Samuel de Champlain
+1611.1.1 = { discovered_by = ENG } # Henry Hudson claimed the area
+
+1649.1.1 = {
+	owner = IRO
+	controller = IRO
+	add_core = IRO
+	culture = iroquois
+} #Taken by Iroquois in Beaver Wars.
+1650.1.1 = {
+	owner = OJI
+	controller = OJI
+	add_core = OJI
+	culture = anishinabe
+} #Iroquois focus on Lake Ontario, Ojibwe moves in
+1707.5.12 = { discovered_by = GBR }

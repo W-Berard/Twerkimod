@@ -1,0 +1,30 @@
+# - Natividad
+
+owner = TUA
+controller = TUA
+add_core = TUA
+culture = ge
+discovered_by = south_american
+religion = animism
+capital = "Natividad"
+trade_goods = sugar
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
+
+
+
+
+1580.1.1 = { discovered_by = POR }
+
+1710.1.1 = {
+	owner = POR
+	controller = POR
+	add_core = POR
+	is_city = yes
+	culture = portugese
+	religion = catholic
+	trade_goods = cocoa
+} # Ranchers from São Paulo occupied the region in search of more productive land

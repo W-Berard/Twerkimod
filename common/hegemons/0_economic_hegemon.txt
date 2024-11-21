@@ -1,0 +1,32 @@
+economic_hegemon = {
+	allow = {
+		is_great_power = yes
+		if = {
+			limit = {
+				NOT = { has_country_flag = halve_hegemony_requirements }
+			}
+			monthly_income = 1000 
+		}
+		else = { monthly_income = 500 } 
+		NOT = { any_other_great_power = { monthly_income = root } }
+		NOT = { has_country_modifier = lost_hegemony }
+	}
+	
+	base = {
+		mercenary_discipline = 0.1
+		country_admin_power = 1	
+		mercenary_manpower = 1.0
+	}
+	
+	# At max 100% tickup.
+	scale = {
+		land_forcelimit_modifier = 0.25
+		global_trade_goods_size_modifier = 0.1
+		governing_capacity_modifier = 0.25
+	}
+	
+	max = {
+		development_cost_modifier = -0.1
+	}
+	
+}
