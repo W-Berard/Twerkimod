@@ -1,0 +1,210 @@
+country_decisions = {
+
+	dec1_almoravid_nation = {
+		major = yes
+		potential = {
+			is_former_colonial_nation = no
+			is_colonial_nation = no
+			technology_group = muslim
+			religion_group = muslim
+			NOT = {
+				exists = ALM
+				tag = ALM
+				tag = MGH
+				tag = PAP
+				tag = HLR
+				tag = ALG
+				tag = ARB
+				tag = EGY
+				tag = TRP
+				tag = CTG
+				tag = ADU
+			}
+			OR ={
+				primary_culture = algerian
+				primary_culture = berber
+				primary_culture = moroccan
+				primary_culture = tunisian
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 40
+					grown_by_development = 75
+					adm_tech = 10
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				# Core Morocco Areas
+				area = sus_area
+				area = southern_morocco_area
+				area = western_morocco_area
+				area = northern_morocco_area
+				area = tafilalt_area
+				area = algiers_area
+				province_id = 337
+				# Iberia
+				area = lower_andalucia_area
+				area = alentejo_area
+				area = valencia_area
+				province_id = 1747
+				province_id = 218
+				province_id = 2754
+				province_id = 4547
+				province_id = 221
+
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			adm_tech = 10
+			NOT = { exists = ALM }
+			if = { # If Subject Formables is enabled, then you can form as either Subject or NOT
+				OR = {
+					is_subject = yes
+					is_subject = no
+				}
+			}
+			is_at_war = no
+			owns_core_province = 344
+			custom_trigger_tooltip = { # Almoravid Cores
+				tooltip = form_almoravid_tt_1
+				sus_area = {
+					type = all
+					owned_by = ROOT
+				}
+				southern_morocco_area = {
+					type = all
+					owned_by = ROOT
+				}
+				western_morocco_area = {
+					type = all
+					owned_by = ROOT
+				}
+				northern_morocco_area = {
+					type = all
+					owned_by = ROOT
+				}
+				tafilalt_area = {
+					type = all
+					owned_by = ROOT
+				}
+				algiers_area = {
+					type = all
+					owned_by = ROOT
+				}
+				lower_andalucia_area = {
+					type = all
+					owned_by = ROOT
+				}
+				alentejo_area = {
+					type = all
+					owned_by = ROOT
+				}
+				valencia_area = {
+					type = all
+					owned_by = ROOT
+				}
+				owns = 337 # Wehran
+				owns = 1747
+				owns = 218
+				owns = 2754
+				owns = 4547
+				owns = 221
+			}
+		}
+		effect = {
+			change_tag = ALM # Country TAG
+			set_country_flag = formed_almoravid_flag # Country Formation Flag
+			custom_tooltip = form_almoravid_tt_2 # New Missions
+			custom_tooltip = form_almoravid_tt_3 # Claims
+			custom_tooltip = dec1_decisions_blank
+			ALM = { # Capital change and bonuses
+				set_capital = 344 # Marrakesh
+				344 = {
+					add_base_tax = 1
+					add_base_production = 1
+					add_base_manpower = 1
+				}
+				custom_tooltip = dec1_decisions_blank
+				custom_tooltip = dec1_government_rank_2 # Government Rank Change
+				# Dharma DLC check to prevent ugly tooltip
+				if = {
+					limit = {
+						has_dlc = "Dharma"
+					}
+					custom_tooltip = dec1_government_change_monarchy # Government Type Change
+				}
+				# Reform Change
+				custom_tooltip = dec1_government_reform_change_autocracy
+				custom_tooltip = dec1_decisions_blank
+				# Our Place in the Empire Custom Event
+				if = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					country_event = { id = dec1_events.1 }
+				}
+				hidden_effect = { # Hidden Effects to fix bad tooltips
+					# Claims
+					iberia_region = {
+						limit = {
+							NOT = { owned_by = ROOT }
+						}
+						add_permanent_claim = ALM
+					}
+					# Government Type Change
+					if = {
+						limit = {
+							NOT = {
+								government = monarchy
+								}
+							}
+						change_government = monarchy
+					}
+					add_government_reform = autocracy_reform
+					# Government Rank change
+					if = {
+						limit = {
+							NOT = {
+								government_rank = 2
+								}
+							}
+						set_government_rank = 2
+					}
+				}
+				# Custom Ideas check and change
+				if = {
+					limit = {
+						has_custom_ideas = no
+						NOT = { has_idea_group = ALM_ideas }
+					}
+					country_event = { id = ideagroups.1 }
+				}
+				# Custom Missions check and change
+				country_event = { id = dec1_events.3 }
+				custom_tooltip = dec1_decisions_blank
+				# National Ability
+				add_country_modifier = {
+					name = dec1_north_african_domination
+					duration = 49275
+				}
+				# Increased Centralization
+				add_country_modifier = {
+					name = dec1_increased_centralization
+					duration = -1
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 200
+	}
+}
