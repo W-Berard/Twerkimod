@@ -12,26 +12,26 @@ ALM_ideas = {
 	}
 	free = yes	# will be added at load.
 
-	AMV_foundation_of_marrakesh = {
+	ALM_foundation_of_marrakesh = {
 		development_cost = -0.1
 	}
-	AMV_berber_cavalry = {
+	ALM_berber_cavalry = {
 		cavalry_shock = 1
 	}
-	AMV_almoravid_merchant_policies = {
+	ALM_almoravid_merchant_policies = {
 		interest = -2
 	}
-	AMV_mass_conversions = {
+	ALM_mass_conversions = {
 		global_missionary_strength = 0.05
 		tolerance_own = 1
 	}
-	AMV_conquest_of_africa = {
+	ALM_conquest_of_africa = {
 		build_cost = -0.1
 	}
-	AMV_weak_neighbors = {
+	ALM_weak_neighbors = {
 		ae_impact = -0.15
 	}
-	AMV_naval_supremacy = {
+	ALM_naval_supremacy = {
 		barrage_cost_in_fleet_modifier = -0.2
 	}
 }
