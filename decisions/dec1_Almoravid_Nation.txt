@@ -39,22 +39,11 @@ country_decisions = {
 		provinces_to_highlight = {
 			OR = {
 				# Core Morocco Areas
-				area = sus_area
-				area = southern_morocco_area
-				area = western_morocco_area
-				area = northern_morocco_area
-				area = tafilalt_area
-				area = algiers_area
+				province_id = 2448
+				province_id = 341
+				province_id = 343
+				province_id = 336
 				province_id = 337
-				# Iberia
-				area = lower_andalucia_area
-				area = alentejo_area
-				area = valencia_area
-				province_id = 1747
-				province_id = 218
-				province_id = 2754
-				province_id = 4547
-				province_id = 221
 
 			}
 			OR = {
@@ -75,48 +64,11 @@ country_decisions = {
 			owns_core_province = 344
 			custom_trigger_tooltip = { # Almoravid Cores
 				tooltip = form_almoravid_tt_1
-				sus_area = {
-					type = all
-					owned_by = ROOT
-				}
-				southern_morocco_area = {
-					type = all
-					owned_by = ROOT
-				}
-				western_morocco_area = {
-					type = all
-					owned_by = ROOT
-				}
-				northern_morocco_area = {
-					type = all
-					owned_by = ROOT
-				}
-				tafilalt_area = {
-					type = all
-					owned_by = ROOT
-				}
-				algiers_area = {
-					type = all
-					owned_by = ROOT
-				}
-				lower_andalucia_area = {
-					type = all
-					owned_by = ROOT
-				}
-				alentejo_area = {
-					type = all
-					owned_by = ROOT
-				}
-				valencia_area = {
-					type = all
-					owned_by = ROOT
-				}
+				owns = 2448
+				owns = 341
+				owns = 343
+				owns = 336
 				owns = 337 # Wehran
-				owns = 1747
-				owns = 218
-				owns = 2754
-				owns = 4547
-				owns = 221
 			}
 		}
 		effect = {
