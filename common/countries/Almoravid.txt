@@ -30,7 +30,7 @@ historical_units = {
 }
 
 monarch_names = {
-	"Muhammad #0" = 200
+	"Muhammad #0" = 100
 	"Ahmad #0" = 80
 	"'Abdallâh #0" = 60
 	"'Abd al-Malik #0" = 40
@@ -56,7 +56,7 @@ monarch_names = {
 	"Abbas #0" = 10
 	"Abû Merwan #0" = 10
 	"al-Talib #0" = 10
-	"al-Flaimarito #0" = 10
+	"al-Flaimarito #0" = 200
 	"Hammada #0" = 10
 	"Hasam #0" = 10
 	"Hashim #0" = 10
@@ -83,6 +83,7 @@ monarch_names = {
 }
 
 leader_names = {
+	Flaimar
 	Sahiri
 	Haida
 	Sellami

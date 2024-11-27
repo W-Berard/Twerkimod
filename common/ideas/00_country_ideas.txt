@@ -4,6 +4,48 @@
 
 ### Nation specific idea groups
 
+#Almoravid
+ALM_ideas = {
+	start = {
+		development_cost = -0.1
+		galley_power = 0.33		
+	}
+	bonus = {
+		naval_forcelimit_modifier = 0.35
+	}
+	trigger = {
+		tag = ALM
+	}
+	free = yes	# will be added at load.
+
+	tun_catalan_guard = {
+		discipline = 0.05
+		land_morale = 0.15
+	}
+	dual_diplomacy = {
+		colonists = 1
+	}
+	corsairs = {
+		navy_tradition = 1
+	}
+	tun_attract_foreign_pirates = {
+		allowed_marine_fraction = 0.25
+		global_sailors_modifier = 0.20	
+	}
+	tun_board_of_captains = {
+		leader_naval_manuever = 2
+	}
+	tun_export_monopolies = {
+		global_own_trade_power = 0.75
+		trade_efficiency = 0.15
+	}
+	tun_caliphate = {
+		tolerance_own = 1
+		monthly_piety_accelerator = 0.001
+	}
+}
+
+
 HLR_ideas = {
 	start = {
 		possible_policy = 1

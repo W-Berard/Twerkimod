@@ -26,14 +26,13 @@ eng_row_slot_1 = {
 		provinces_to_highlight = {
 		}		
 		trigger = {
-			army_size_percentage = 0.8
-			OR = {
-				num_of_estate_privileges = {
-					estate = estate_nobles
-					value = 2
-				}
-				num_of_mercenaries = 6
+			army_size_percentage = 1
+			num_of_estate_privileges = {
+				estate = estate_nobles
+				value = 2
 			}
+				
+			
 		}	
 		effect = {
 			british_isles_region = {
@@ -1526,7 +1525,7 @@ gbr_row_3 = {
 			else = {
 				add_stability_or_adm_power = yes
 				add_country_modifier = {
-					name = gbr_recovering_prestige
+					name = gbr_decaying_prestige
 					duration = 7300
 				}
 			}
@@ -1743,7 +1742,6 @@ gbr_row_3 = {
 				name = gbr_new_world_dominance
 				duration = -1
 			}
-			custom_tooltip = gbr_dominiate_new_world_at
 		}
 		ai_weight = {
 			factor = 250

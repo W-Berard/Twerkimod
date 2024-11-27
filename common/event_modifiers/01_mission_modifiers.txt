@@ -1812,6 +1812,11 @@ gbr_isolation_policy = {
 	development_cost = -0.025
 }
 
+##Twerkimod british rework
+gbr_decaying_prestige = {
+	prestige = -1
+}
+
 gbr_recovering_prestige = {
 	prestige_decay = -0.01
 	prestige = 1

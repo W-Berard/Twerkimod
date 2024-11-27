@@ -2976,15 +2976,7 @@ estate_nobles_english_villeinage = {
 		has_estate_privilege = estate_nobles_english_villeinage
 	}
 	can_revoke = {
-		OR = {
-			crown_land_share = 40
-			AND = {
-				crown_land_share = 30
-				has_estate_privilege = estate_church_religious_state
-				has_estate_privilege = estate_nobles_nobility_primacy
-				has_estate_privilege = estate_burghers_land_of_commerce
-			}
-		}
+		crown_land_share = 40
 	}
 	on_granted = {
 	}

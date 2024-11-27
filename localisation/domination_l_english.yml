@@ -5661,6 +5661,7 @@
  gbr_isolation_policy:0 "Isolation Policy"
  desc_gbr_isolation_policy:0 "The mainland is no longer a place of comfort to us. Only the British Isles are home to our people, and we will make sure that we focus on our internal affairs first."
  gbr_recovering_prestige:0 "Recovering Prestige"
+ gbr_decaying_prestige:0 "Decaying Prestige"
  desc_gbr_recovering_prestige:0 "Abandoning the mainland definitely left a mark on our prestige. With time, the powers of Europe will recognize that we only did a tactical retreat, and did not leave the French lands behind us."
  gbr_end_of_the_villeinage:0 "Villeinage Ended"
  desc_gbr_end_of_the_villeinage:0 "Our peasants are no longer subjected to the villeinage system."

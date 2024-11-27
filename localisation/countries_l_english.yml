@@ -1417,6 +1417,30 @@
   FO7:0 "Dongye"
   FO7_ADJ:0 "Dongye"
 
-  #twerkimod
-  ALM:0 "Almoravid"
-  ALM_ADJ:0 "Almoravid"
+   
+#twerkimod
+#Almoravid
+    ALM:0 "Almoravid"
+    ALM_ADJ:0 "Almoravid"
+    dec1_almoravid_nation_title: "@ALM Almoravid"
+    dec1_almoravid_nation_desc: "The Almoravid was a Berber Muslim dynasty centered in the territory of Morocco.\nIt established an empire that stretched over the western Maghreb and Al-Andalus, starting in the 1050s and lasting until its fall to the Almohads in 1147."
+    ALM_ideas: "Almoravid Ideas"
+    ALM_ideas_start: "Almoravid Traditions"
+    ALM_ideas_bonus: "Almoravid Bonus"
+    ALM_foundation_of_marrakesh: "Foundation of Marrakesh"
+    ALM_foundation_of_marrakesh_desc: "§RDescription Not Available Yet§!"
+    ALM_berber_cavalry: "Berber Cavalry"
+    ALM_berber_cavalry_desc: "§RDescription Not Available Yet§!"
+    ALM_almoravid_merchant_policies: "Almoravid Merchant Policies"
+    ALM_almoravid_merchant_policies_desc: "§RDescription Not Available Yet§!"
+    ALM_mass_conversions: "Mass Conversions"
+    ALM_mass_conversions_desc: "§RDescription Not Available Yet§!"
+    ALM_conquest_of_africa: "Conquest of Africa"
+    ALM_conquest_of_africa_desc: "§RDescription Not Available Yet§!"
+    ALM_weak_neighbors: "Weak Neighbors"
+    ALM_weak_neighbors_desc: "§RDescription Not Available Yet§!"
+    ALM_naval_supremacy: "Naval Supremacy"
+    ALM_naval_supremacy_desc: "§RDescription Not Available Yet§!"
+    form_almoravid_tt_1: "Owns all cores of the §YAlmoravid§!"
+    form_almoravid_tt_2: "Country obtains §YAlmoravid§! missions."
+    form_almoravid_tt_3: "Country gains a permanent claim on §YIberia§! region."
