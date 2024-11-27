@@ -1,0 +1,76 @@
+l_english :
+    dec1_decisions_blank: "        "
+    dec1_government_change_monarchy: "The type of Government changes to §YMonarchy§!."
+    dec1_government_change_tribal: "The type of Government changes to §YTribal§!."
+    dec1_government_change_english_monarchy: "The type of Government changes to §YEnglish Monarchy§!."
+    dec1_government_change_monarchy_of_dual_monarchy: "The type of Government changes to §YDual Monarchy§!."
+    dec1_government_change_prussian_monarchy: "The type of Government changes to §YMonarchy§!."
+    dec1_government_change_tribal_monarchy: "The type of Government changes to §YTribal Monarchy§!."
+    dec1_government_change_dutch_republic: "The type of Government changes to §YDutch Republic§!."
+    dec1_government_change_republic: "The type of Government changes to §YRepublic§!."
+    dec1_government_change_theocracy: "The type of Government changes to §YTheocracy§!."
+    dec1_government_change_russian_theocracy: "The type of Government changes to §YRussian Theocracy§!."
+    dec1_government_change_tsardom: "The type of Government changes to §YTsardom§!."
+    dec1_government_change_stateless_society: "The type of Government changes to §YStateless Society§!."
+    dec1_government_change_american_republic: "The type of Government changes to §YAmerican Republic§!."
+    dec1_government_change_confederacy: "The type of Government changes to §YConfederacy§!."
+
+    dec1_government_rank_1: "The Government Rank changes to §YDuchy§!."
+    dec1_government_rank_2: "The Government Rank changes to §YKingdom§!."
+    dec1_government_rank_3: "The Government Rank changes to §YEmpire§!."
+
+    ###############
+  # Base Events #
+  ###############
+
+    # Holy Roman Empire - Our Place in the Empire Event
+
+      dec1_events.1.t: "Our place in the Empire"
+      dec1_events.1.d: "As we place ourselves higher we begin to question the rights of our so called Emperor.. Should we not forge our own path and take our place in the sun?"
+      dec1_events.1.a: "Remain loyal to the Emperor."
+      dec1_events.1.b: "We must forge our own path!"
+      dec1_events.1.c: "We are the rightful Emperor!"
+
+    # Holy Roman Empire - Our Place in the Empire - [From.GetName] remains loyal to the empire
+
+      dec1_events.2.t: "[From.GetName] remains loyal to the Empire"
+      dec1_events.2.d: "The Holy Roman Empire has been strengthened by the formation of the new state of [From.GetName] which has remained loyal to our Empire and supported Emperor $EMPERORNAME$. We have gained much prestige and stability within the empire due to the strengthening of our Empire!"
+      dec1_events.2.a: "Excellent!"
+
+    # Holy Roman Empire - Our Place in the Empire - [From.GetName] has left the empire
+
+      dec1_events.4.t: "[From.GetName] has left the Empire!"
+      dec1_events.4.d: "The Holy Roman Empire has been weakened by the formation of the new state of [From.GetName] which has announced disloyalty to Emperor $EMPERORNAME$. We have lost the respect and authority that we had before this nonsense!"
+      dec1_events.4.a: "Traitors aren't our problem."
+      dec1_events.4.b: "This cannot stand! To War!"
+
+    # Customs Missions - New Missions and Objectives Event
+
+      dec1_events.3.t: "New Missions & Objectives"
+      dec1_events.3.d: "Our state is going through a range of changes that is rapidly reforming our government and political objectives. Unless we invest our time in these goals; they will remain the same without any progress to our power projection.\n\nDeveloper Note: §RNew Missions are not included yet!§!"
+      dec1_events.3.a: "Yes, Please!"
+      dec1_events.3.b: "No, we cannot abandon our roots."
+
+#Almoravid
+    dec1_almoravid_nation_title: "@ALM Almoravid"
+    dec1_almoravid_nation_desc: "The Almoravid was a Berber Muslim dynasty centered in the territory of Morocco.\nIt established an empire that stretched over the western Maghreb and Al-Andalus, starting in the 1050s and lasting until its fall to the Almohads in 1147."
+    ALM_ideas: "Almoravid Ideas"
+    ALM_ideas_start: "Almoravid Traditions"
+    ALM_ideas_bonus: "Almoravid Bonus"
+    ALM_foundation_of_marrakesh: "Foundation of Marrakesh"
+    ALM_foundation_of_marrakesh_desc: "§RDescription Not Available Yet§!"
+    ALM_berber_cavalry: "Berber Cavalry"
+    ALM_berber_cavalry_desc: "§RDescription Not Available Yet§!"
+    ALM_almoravid_merchant_policies: "Almoravid Merchant Policies"
+    ALM_almoravid_merchant_policies_desc: "§RDescription Not Available Yet§!"
+    ALM_mass_conversions: "Mass Conversions"
+    ALM_mass_conversions_desc: "§RDescription Not Available Yet§!"
+    ALM_conquest_of_africa: "Conquest of Africa"
+    ALM_conquest_of_africa_desc: "§RDescription Not Available Yet§!"
+    ALM_weak_neighbors: "Weak Neighbors"
+    ALM_weak_neighbors_desc: "§RDescription Not Available Yet§!"
+    ALM_naval_supremacy: "Naval Supremacy"
+    ALM_naval_supremacy_desc: "§RDescription Not Available Yet§!"
+    form_almoravid_tt_1: "Owns all cores of the §YAlmoravid§!"
+    form_almoravid_tt_2: "Country obtains §YAlmoravid§! missions."
+    form_almoravid_tt_3: "Country gains a permanent claim on §YIberia§! region."
