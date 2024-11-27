@@ -62,14 +62,11 @@ country_decisions = {
 			}
 			is_at_war = no
 			owns_core_province = 344
-			custom_trigger_tooltip = { # Almoravid Cores
-				tooltip = form_almoravid_tt_1
-				owns = 2448
-				owns = 341
-				owns = 343
-				owns = 336
-				owns = 337 # Wehran
-			}
+			owns_core_province = 2448
+			owns_core_province = 341
+			owns_core_province = 343
+			owns_core_province = 336
+			owns_core_province = 337 # Wehran
 		}
 		effect = {
 			change_tag = ALM # Country TAG
